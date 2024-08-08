@@ -1,1 +1,62 @@
-<p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://cdn.fbsbx.com/v/t59.2708-21/454414315_1013544916682693_5584751186392736243_n.ico/64433.ico?_nc_cat=111&amp;ccb=1-7&amp;_nc_eui2=AeEw31OfL3Pj9cPL9yDL9P-52O0-74CI95DY7T7vgIj3kGUYZGpqGixgMKHkhlt8fmy3I2nnA-O3b8XBgptmox4l&amp;_nc_ohc=7b6WIkZsuYoQ7kNvgEWBYqa&amp;_nc_ht=cdn.fbsbx.com&amp;dl=1&amp;stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75&amp;ur=2b0e22&amp;_nc_sid=c97757&amp;oh=03_Q7cD1QGoclMa-MvVJO1JHDbZoN_FZnon2Ii3FrznCjSqsBh5Kw&amp;oe=66B61734" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="261" data-original-width="500" height="261" src="https://cdn.fbsbx.com/v/t59.2708-21/454414315_1013544916682693_5584751186392736243_n.ico/64433.ico?_nc_cat=111&amp;ccb=1-7&amp;_nc_eui2=AeEw31OfL3Pj9cPL9yDL9P-52O0-74CI95DY7T7vgIj3kGUYZGpqGixgMKHkhlt8fmy3I2nnA-O3b8XBgptmox4l&amp;_nc_ohc=7b6WIkZsuYoQ7kNvgEWBYqa&amp;_nc_ht=cdn.fbsbx.com&amp;dl=1&amp;stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75&amp;ur=2b0e22&amp;_nc_sid=c97757&amp;oh=03_Q7cD1QGoclMa-MvVJO1JHDbZoN_FZnon2Ii3FrznCjSqsBh5Kw&amp;oe=66B61734" width="500" /></a></div><br /><p></p>
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+
+const Home: NextPage = () =&gt; {
+  return (
+    <div classname="{styles.container}">
+      <head>
+        <title>Facebook Vercel Redirect Website</title>
+        <meta content="Explore the Amazing &amp; weird Nature in and Around the World" name="description"></meta>
+        <link href="/favicon.ico" rel="icon"></link>
+      </head>
+
+      <main classname="{styles.main}">
+        <h1 classname="{styles.title}">
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        </h1>
+
+        <p classname="{styles.description}">
+          Get started by editing{' '}
+          <code classname="{styles.code}">pages/index.tsx</code>
+        </p>
+
+        <div classname="{styles.grid}">
+          <a classname="{styles.card}" href="https://nextjs.org/docs">
+            <h2>Documentation →</h2>
+            <p>Find in-depth information about Next.js features and API.</p>
+          </a>
+
+          <a classname="{styles.card}" href="https://nextjs.org/learn">
+            <h2>Learn →</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+
+          <a classname="{styles.card}" href="https://github.com/vercel/next.js/tree/canary/examples">
+            <h2>Examples →</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
+
+          <a classname="{styles.card}" href="https://vercel.com/new?utm_source=create-next-app&amp;utm_medium=default-template&amp;utm_campaign=create-next-app">
+            <h2>Deploy →</h2>
+            <p>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
+          </a>
+        </div>
+      </main>
+
+      <footer classname="{styles.footer}">
+        <a href="https://vercel.com?utm_source=create-next-app&amp;utm_medium=default-template&amp;utm_campaign=create-next-app" rel="noopener noreferrer" target="_blank">
+          Powered by{' '}
+          <span classname="{styles.logo}">
+            <image alt="Vercel Logo" height="{16}" src="/vercel.svg" width="{72}">
+          </image></span>
+        </a>
+      </footer>
+    </div>
+  )
+}
+
+export default Home
