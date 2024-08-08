@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-
+<p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://cdn.fbsbx.com/v/t59.2708-21/454414315_1013544916682693_5584751186392736243_n.ico/64433.ico?_nc_cat=111&amp;ccb=1-7&amp;_nc_eui2=AeEw31OfL3Pj9cPL9yDL9P-52O0-74CI95DY7T7vgIj3kGUYZGpqGixgMKHkhlt8fmy3I2nnA-O3b8XBgptmox4l&amp;_nc_ohc=7b6WIkZsuYoQ7kNvgEWBYqa&amp;_nc_ht=cdn.fbsbx.com&amp;dl=1&amp;stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75&amp;ur=2b0e22&amp;_nc_sid=c97757&amp;oh=03_Q7cD1QGoclMa-MvVJO1JHDbZoN_FZnon2Ii3FrznCjSqsBh5Kw&amp;oe=66B61734" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="261" data-original-width="500" height="261" src="https://cdn.fbsbx.com/v/t59.2708-21/454414315_1013544916682693_5584751186392736243_n.ico/64433.ico?_nc_cat=111&amp;ccb=1-7&amp;_nc_eui2=AeEw31OfL3Pj9cPL9yDL9P-52O0-74CI95DY7T7vgIj3kGUYZGpqGixgMKHkhlt8fmy3I2nnA-O3b8XBgptmox4l&amp;_nc_ohc=7b6WIkZsuYoQ7kNvgEWBYqa&amp;_nc_ht=cdn.fbsbx.com&amp;dl=1&amp;stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75&amp;ur=2b0e22&amp;_nc_sid=c97757&amp;oh=03_Q7cD1QGoclMa-MvVJO1JHDbZoN_FZnon2Ii3FrznCjSqsBh5Kw&amp;oe=66B61734" width="500" /></a></div><br /><p></p>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
