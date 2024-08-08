@@ -1,6 +1,17 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+ 
+export default function Page() {
+  return (
+    <Image
+      src="https://cdn.fbsbx.com/v/t59.2708-21/454273210_376273015242558_1141636796330117460_n.ico/WhatsApp-Image-2024-08-06-at-23.40.12_5bfa5fcc.ico?_nc_cat=110&ccb=1-7&_nc_ohc=BXQIvuce5E0Q7kNvgG23eVZ&_nc_ht=cdn.fbsbx.com&dl=1&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75&ur=2b0e22&_nc_sid=085657&oh=03_Q7cD1QHCLQ-3gDiL59soRrakcNl2VwkJKZaipCDcZ53TNG05dA&oe=66B4DDCF"
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
+  )
+}
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
